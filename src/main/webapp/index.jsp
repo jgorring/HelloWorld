@@ -12,7 +12,7 @@ pageEncoding="ISO-8859-1"%>
 	<center>
 		<h2>Prueba pipeline jenkins: defensa master</h2>
 		<h3>
-			<a href="hello?name=Jeannette Gorrin">Click Here</a>
+			<a href="hello?name=Jeannette Gorrin.">Click Here</a>
 		</h3>
 	</center>
 </body>
