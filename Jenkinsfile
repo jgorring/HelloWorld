@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'microsoft/azure-documentdb-emulator:latest' }
+        docker { image 'node:7-alpine' }
     }
     stages {
         stage('build') {
