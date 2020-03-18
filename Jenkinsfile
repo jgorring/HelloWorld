@@ -1,11 +1,11 @@
 pipeline {
     agent {
-        docker { image 'node:7-alpine' }
+        docker { image 'microsoft/azure-documentdb-emulator:latest' }
     }
     stages {
         stage('build') {
             steps {
-                sh 'node --version'
+                sh 'docker run --name azure-cosmosdb-emulator --memory 2GB'
             }
         }
     }
